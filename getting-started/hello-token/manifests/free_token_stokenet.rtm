@@ -1,9 +1,0 @@
-  CALL_METHOD
-    Address("_stokenet_component_address")
-    "free_token"
-    ;
-  CALL_METHOD
-    Address("_your_account_address")
-    "deposit_batch"
-    Expression("ENTIRE_WORKTOP")
-    ;
